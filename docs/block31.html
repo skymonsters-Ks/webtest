@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=320">
+		<title>block3+</title>
+		<script>
+			const HTML_TITLE = '';
+			const PRELOAD_FILES = ['block3.ax'];
+			const DISH_ENV = '{"HSP_WX":"320","HSP_WY":"480","HSP_SX":"320","HSP_SY":"480","HSP_LIMIT_STEP":"5000"}';
+		</script>
+		<style>
+			*{margin:0;}.emscripten_border{position:relative;}#status,#canvas{position:absolute;top:0;left:0;width:100%;outline:none;}
+		</style>
+		<style></style>
+	</head>
+	
+	<body id="body">
+		<div class="emscripten_border">
+			<div id="status"></div>
+			<canvas id="canvas" width="320" height="480" oncontextmenu="event.preventDefault()"></canvas>
+		</div>
+		<script src="load.js"></script>
+		<script src="hsp3dish36b21.js" async></script>
+	</body>
+	
+</html>
